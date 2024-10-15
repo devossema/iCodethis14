@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #eef3f9;
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    width: 550px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 19px 17px -5px rgba(130, 176, 211, 0.6);
+    -moz-box-shadow: 0px 19px 17px -5px rgba(130, 176, 211, 0.6);
+    box-shadow: 0px 19px 17px -5px rgba(130, 176, 211, 0.6);
+}
+.container .heading{
+    display: flex;
+}
+img{
+    width: 150px;
+    height: 200px;
+    padding: 30px 0 30px 40px;
+    padding-top: 50px;
+    display: inline;
+}
+.container .heading .text p{
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px;
+    margin-left: 15px;
+    background-color: rgb(33, 33, 68);
+    color: white;
+    width: 80px;
+    height: 12px;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: 600;
+}
+.container .heading .text h1{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.container .heading p1{
+    margin-left: 15px;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+.container .heading h2{
+    margin-left: 15px;
+}
+.container .heading p2{
+    margin-left: 15px;
+    font-size: 10px;
+    opacity: 70%;
+    margin-top: 0;
+}
+.container .heading .but button{
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4787e9;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 5px 0 0 rgba(8, 0, 255, 0.744);
+}
+ul li{
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 10px;
+}
+li::marker{
+    color: green;
+    size: 20px;
+}
+
+.buttons button{
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+    border: 1px rgba(128, 128, 128, 0.489) solid;
+    background-color: white;
+}
